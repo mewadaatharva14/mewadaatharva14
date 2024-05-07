@@ -9,7 +9,7 @@
 
 - 🌱 I’m currently learning **Node js,Data Structures,3ds max**
 
-- 👨‍💻 All of my projects are available at [https://github.com/mewadaatharva14](https://github.com/mewadaatharva14)
+- 👨‍💻 All of my projects and notes are available at [https://github.com/mewadaatharva14](https://github.com/mewadaatharva14)
 
 - ⚡ Fun fact **I Never Give Up**
 
