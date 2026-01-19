@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Atharva Mewada</h1>
-<h3 align="center">A passionate full-stack developer from India</h3>
+<h3 align="center">A Software Developer from India</h3>
 
 <p align="center">
   <img alt="coding" width="600" src="https://gifdb.com/images/high/animated-man-computer-coding-nae6mec378lsg1i3.gif">
