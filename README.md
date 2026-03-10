@@ -21,7 +21,7 @@
 <h1>Atharva Mewada</h1>
 
 <p>
-  <a href="mailto:mewadaatharva2004@gmail.com"><img src="https://img.shields.io/badge/Gmail-mewadaatharva20042004-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:mewadaatharva2004@gmail.com"><img src="https://img.shields.io/badge/Gmail-mewadaatharva2004-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
   &nbsp;
   <a href="https://linkedin.com/in/atharva-mewada-3018a7280"><img src="https://img.shields.io/badge/LinkedIn-atharva--mewada-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
   &nbsp;
