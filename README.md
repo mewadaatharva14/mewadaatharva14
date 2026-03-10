@@ -34,8 +34,6 @@
 
 <hr/>
 
-<img align="right" width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mewadaatharva14&layout=compact&hide_border=true&theme=github_dark&langs_count=6&bg_color=0d1117&title_color=58a6ff&text_color=8b949e" />
-
 <h3>About</h3>
 
 <p>Computer Engineering final year. I build ML systems close to the metal — manual backprop before autograd, loss functions before libraries.</p>
@@ -120,7 +118,6 @@
 <h2>GitHub Stats</h2>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=mewadaatharva14&show_icons=true&hide_border=true&theme=github_dark&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&include_all_commits=true&rank_icon=github" />
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=mewadaatharva14&hide_border=true&theme=github-dark-blue&background=0d1117&stroke=30363d&ring=58a6ff&fire=ff7b72&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e" />
 </div>
 
