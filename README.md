@@ -19,7 +19,6 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Machine+Learning+Engineer;Generative+AI+%7C+Production+Systems;Building+from+first+principles" alt="Typing SVG" />
 
 <h1>Atharva Mewada</h1>
-
 <p>
   <a href="mailto:mewadaatharva2004@gmail.com"><img src="https://img.shields.io/badge/Gmail-mewadaatharva2004-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
   &nbsp;
