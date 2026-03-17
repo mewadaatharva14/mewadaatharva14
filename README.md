@@ -1,22 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
-</head>
-<body>
-<div class="gh-page">
-<div class="markdown-body">
-
-<!-- ═══════════════════════════════════════════════ -->
-<!--   RENDERED OUTPUT — mirrors GitHub Dark exactly  -->
-<!-- ═══════════════════════════════════════════════ -->
-
 <div align="center">
 
 <!-- Typing SVG header -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Machine+Learning+Engineer;Generative+AI+%7C+Production+Systems;Building+from+first+principles" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=AI+%2F+ML+Engineer;RAG+Systems+%7C+LLM+Engineering;Generative+AI+%7C+Production+Systems;Building+from+first+principles" alt="Typing SVG" />
 
 <h1>Atharva Mewada</h1>
 <p>
@@ -31,108 +16,63 @@
 
 </div>
 
-<hr/>
+---
 
-<h3>About</h3>
+### About
 
-<p>Computer Engineering final year. I build ML systems close to the metal — manual backprop before autograd, loss functions before libraries.</p>
+Final year Computer Engineering student at LJ Institute of Engineering and Technology, Ahmedabad (GPA 9.23). I build ML systems close to the metal — manual backprop before autograd, loss functions before libraries.
 
-<p>Industry experience as a <strong>Data Scientist Intern at PetPooja</strong> (restaurant &amp; e-commerce SaaS): shipped DL pipelines to production, built e-commerce scraping infra at scale, optimized ETL pipelines feeding live models.</p>
+6 months industry experience as a **Data Science Intern at Petpooja** (restaurant SaaS): shipped DL pipelines to production, benchmarked 8+ models across 20+ experiments, built scraping infrastructure processing 50,000+ daily entries across Swiggy, Zomato and UberEats.
 
-<p>Current focus: generative models, LLM tooling, and CV interpretability.</p>
+Current focus: production RAG systems, LLM application engineering, and generative models.
 
-<p>
-  <img src="https://img.shields.io/badge/Generative%20AI-0d1117?style=flat-square&logo=openai&logoColor=58a6ff&labelColor=161b22" />
-  <img src="https://img.shields.io/badge/LLMs%20%26%20RAG-0d1117?style=flat-square&logo=huggingface&logoColor=ffd21e&labelColor=161b22" />
-  <img src="https://img.shields.io/badge/Computer%20Vision-0d1117?style=flat-square&logo=pytorch&logoColor=EE4C2C&labelColor=161b22" />
-  <img src="https://img.shields.io/badge/Production%20ML-0d1117?style=flat-square&logo=githubactions&logoColor=3fb950&labelColor=161b22" />
-</p>
+<p><img src="https://img.shields.io/badge/RAG%20Systems-0d1117?style=flat-square&logo=pinecone&logoColor=58a6ff&labelColor=161b22" /> <img src="https://img.shields.io/badge/Generative%20AI-0d1117?style=flat-square&logo=openai&logoColor=58a6ff&labelColor=161b22" /> <img src="https://img.shields.io/badge/LLM%20Engineering-0d1117?style=flat-square&logo=huggingface&logoColor=ffd21e&labelColor=161b22" /> <img src="https://img.shields.io/badge/Production%20ML-0d1117?style=flat-square&logo=githubactions&logoColor=3fb950&labelColor=161b22" /></p>
 
-<br clear="right"/>
+---
 
-<hr/>
+## Projects
 
-<h2>Projects</h2>
+| Repository | What it does | Key techniques | Stack |
+|------------|-------------|----------------|-------|
+| [**rag-chat-app**](https://github.com/mewadaatharva14/rag-chat-app) | Full-stack RAG chatbot — ChatGPT-style UI, multi-turn memory, JWT auth, image gen + captioning | Confidence routing · intent classification · domain filtering · user memory injection | `FastAPI` `Next.js` `Pinecone` `Ollama` `Docker` |
+| [**rag-llm-system**](https://github.com/mewadaatharva14/rag-llm-system) | Multi-document QA with two-stage confidence routing | Cosine similarity · cross-encoder reranker · BGE embeddings · FastAPI serving | `FastAPI` `Pinecone` `LangChain` `PyTorch` |
+| [**generative-models-gan**](https://github.com/mewadaatharva14/generative-models-gan) | GAN progression — Vanilla GAN on MNIST → Conditional WGAN-GP on CIFAR-10 | Wasserstein distance · gradient penalty · SpectralNorm · class-conditional generation | `PyTorch` |
+| [**variational-autoencoder**](https://github.com/mewadaatharva14/variational-autoencoder) | ConvVAE on CelebA with full probabilistic framework | ELBO loss · reparameterization trick · beta-VAE disentanglement · t-SNE latent space | `PyTorch` |
+| [**ml-from-scratch**](https://github.com/mewadaatharva14/ml-from-scratch) | Classical ML and MLP built entirely without autograd or sklearn | Manual backpropagation · chain rule · He initialization · gradient descent | `NumPy` |
+| [**deep-learning-cv**](https://github.com/mewadaatharva14/deep-learning-cv) | CNN from scratch vs ResNet-50 transfer learning on same dataset | Progressive unfreezing · batch norm · custom CNN architecture | `PyTorch` |
 
-<table>
-<thead>
-<tr>
-<th>Repository</th>
-<th>What it does</th>
-<th>Key techniques</th>
-<th>Stack</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/mewadaatharva14/ml-from-scratch"><strong>ml-from-scratch</strong></a></td>
-<td>Classical ML algorithms built entirely without autograd or sklearn</td>
-<td>Manual backpropagation · chain rule · gradient descent from scratch</td>
-<td><code>NumPy</code></td>
-</tr>
-<tr>
-<td><a href="https://github.com/mewadaatharva14/generative-models-gan"><strong>generative-models-gan</strong></a></td>
-<td>GAN progression: Vanilla → Conditional WGAN-GP</td>
-<td>Wasserstein distance · gradient penalty · class-conditional generation on CIFAR-10</td>
-<td><code>PyTorch</code></td>
-</tr>
-<tr>
-<td><a href="https://github.com/mewadaatharva14/variational-autoencoder"><strong>variational-autoencoder</strong></a></td>
-<td>ConvVAE on CelebA with full probabilistic framework</td>
-<td>ELBO loss · reparameterization trick · beta-VAE disentanglement · t-SNE latent space</td>
-<td><code>PyTorch</code></td>
-</tr>
-</tbody>
-</table>
+---
 
-<blockquote>
-<p><strong>In active development:</strong> RAG pipelines (FAISS + LangChain) &nbsp;·&nbsp; BERT fine-tuning for NLP tasks &nbsp;·&nbsp; ResNet-50 + Class Activation Maps &nbsp;·&nbsp; BioBERT NER</p>
-</blockquote>
+## Stack
 
-<hr/>
+**AI / ML**
 
-<h2>Stack</h2>
+<p><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black" /> <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" /> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" /> <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" /> <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" /></p>
 
-<p><strong>Core ML / DL</strong></p>
-<p>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
-</p>
+**Infrastructure & Deployment**
 
-<p><strong>Languages &amp; Tools</strong></p>
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" />
-</p>
+<p><img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /> <img src="https://img.shields.io/badge/Pinecone-000000?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" /> <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logoColor=white" /></p>
 
-<hr/>
+**Languages & Tools**
 
-<h2>GitHub Stats</h2>
+<p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" /> <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" /> <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" /> <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" /></p>
+
+---
+
+## GitHub Stats
 
 <div align="center">
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=mewadaatharva14&hide_border=true&theme=github-dark-blue&background=0d1117&stroke=30363d&ring=58a6ff&fire=ff7b72&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e" />
 </div>
 
-<hr/>
+---
 
 <div align="center">
   <sub>
-    <a href="mailto:mewadaatharva2004@gmail.com">atharvamewada2004@gmail.com</a>
+    <a href="mailto:mewadaatharva2004@gmail.com">mewadaatharva2004@gmail.com</a>
     &nbsp;·&nbsp;
     <a href="https://linkedin.com/in/atharva-mewada-3018a7280">LinkedIn</a>
     &nbsp;·&nbsp;
     <a href="https://leetcode.com/u/atharva_1404/">LeetCode</a>
   </sub>
 </div>
-
-</div><!-- markdown-body -->
-</div><!-- gh-page -->
-</body>
-</html>
