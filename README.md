@@ -35,7 +35,6 @@ Current focus: production RAG systems, LLM application engineering, and generati
 | Repository | What it does | Key techniques | Stack |
 |------------|-------------|----------------|-------|
 | [**rag-chat-app**](https://github.com/mewadaatharva14/rag-chat-app) | Full-stack RAG chatbot — ChatGPT-style UI, multi-turn memory, JWT auth, image gen + captioning | Confidence routing · intent classification · domain filtering · user memory injection | `FastAPI` `Next.js` `Pinecone` `Ollama` `Docker` |
-| [**rag-llm-system**](https://github.com/mewadaatharva14/rag-llm-system) | Multi-document QA with two-stage confidence routing | Cosine similarity · cross-encoder reranker · BGE embeddings · FastAPI serving | `FastAPI` `Pinecone` `LangChain` `PyTorch` |
 | [**generative-models-gan**](https://github.com/mewadaatharva14/generative-models-gan) | GAN progression — Vanilla GAN on MNIST → Conditional WGAN-GP on CIFAR-10 | Wasserstein distance · gradient penalty · SpectralNorm · class-conditional generation | `PyTorch` |
 | [**variational-autoencoder**](https://github.com/mewadaatharva14/variational-autoencoder) | ConvVAE on CelebA with full probabilistic framework | ELBO loss · reparameterization trick · beta-VAE disentanglement · t-SNE latent space | `PyTorch` |
 | [**ml-from-scratch**](https://github.com/mewadaatharva14/ml-from-scratch) | Classical ML and MLP built entirely without autograd or sklearn | Manual backpropagation · chain rule · He initialization · gradient descent | `NumPy` |
